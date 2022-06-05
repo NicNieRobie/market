@@ -1,0 +1,19 @@
+{
+  "account": {
+    "money": 20000
+  },
+  "books": [
+    {
+      "author": "Брюс Эккель",
+      "name": "Философия Java",
+      "price": 1500,
+      "amount": 15
+    },
+    {
+      "author": "Joshua Bloch",
+      "name": "Effective Java",
+      "price": 2500,
+      "amount": 10
+    }
+  ]
+}

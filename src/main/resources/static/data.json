@@ -1,0 +1,25 @@
+{
+  "account": {
+    "money": 20000
+  },
+  "books": [
+    {
+      "author": "Steven C. McConnell",
+      "name": "Code Complete",
+      "price": 1000,
+      "amount": 7
+    },
+    {
+      "author": "Bruce Eckel",
+      "name": "Thinking in Java",
+      "price": 1500,
+      "amount": 15
+    },
+    {
+      "author": "Joshua Bloch",
+      "name": "Effective Java",
+      "price": 2500,
+      "amount": 10
+    }
+  ]
+}

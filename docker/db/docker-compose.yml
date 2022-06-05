@@ -3,10 +3,15 @@ version: '2'
 services:
   db:
     image: 'postgres:13.1-alpine'
-    container_name: db
+    container_name: market-db
+    volumes:
+      - db_volume:/var/lib/postgresql/data
     ports:
       - "5433:5432"
     environment:
       - POSTGRES_USER=root
       - POSTGRES_DB=market
       - POSTGRES_PASSWORD=pass1234
+
+volumes:
+  db_volume: {}

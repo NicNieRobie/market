@@ -199,8 +199,8 @@ The application handles requests on three endpoints:
 
    ```json
    {
-    "id": <product ID>,
-    "amount": <amount of books to be purchased>
+    "id": "<product ID>",
+    "amount": "<amount of books to be purchased>"
    }
    ```
 

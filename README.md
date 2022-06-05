@@ -233,14 +233,14 @@ to make it possible to interact with the market more:
    ```
 2. `POST /market`
    
-   Creates new porudct on the market. The request body must have the following format:
+   Creates new product on the market. The request body must have the following format:
 
    ```json
    {
-    "name": <book name>,
-    "author": <book author>,
-    "price": <book price>,
-    "amount": <the amount of books available>
+    "name": "<book name>",
+    "author": "<book author>",
+    "price": "<book price>",
+    "amount": "<the amount of books available>"
    }
    ```
 3. `PATCH /market/{id}`
@@ -251,11 +251,11 @@ to make it possible to interact with the market more:
    ```json
    {
     "book": {
-        "name": <new book name>,
-        "author": <new book author>
+        "name": "<new book name>",
+        "author": "<new book author>"
     },
-    "price": <new book price>,
-    "amount": <new amount of books available>
+    "price": "<new book price>",
+    "amount": "<new amount of books available>"
    }
    ```
 

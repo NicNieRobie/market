@@ -9,9 +9,9 @@ services:
     ports:
       - "8080:8080"
     depends_on:
-      - db
+      - market-db
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://host.docker.internal:5433/market
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://market-db:5433/market
       - SPRING_DATASOURCE_USERNAME=root
       - SPRING_DATASOURCE_PASSWORD=pass1234
       - SPRING_JPA_HIBERNATE_DDL_AUTO=create

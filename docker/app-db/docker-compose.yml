@@ -5,7 +5,7 @@ services:
     image: 'nicnierobie/spring-market-svc:1.0-docker'
     container_name: market-app
     build:
-      context: ..
+      context: .
     ports:
       - "8080:8080"
     depends_on:
